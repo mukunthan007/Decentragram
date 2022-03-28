@@ -4,9 +4,9 @@ require('babel-polyfill');
 module.exports = {
   networks: {
     development: {
-      host: "192.168.0.129",
-      port: 7545,
-      network_id: "5777"
+      host: "",
+      port: ,  //blockhain port
+      network_id: "" //blockchain network ID
     },
   },
   contracts_directory: './src/contracts/',
